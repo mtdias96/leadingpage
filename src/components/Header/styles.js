@@ -7,7 +7,6 @@ export const Container = styled.header`
   align-items:center ;
 
   .btn{
-    cursor: pointer;
     display: none;
 
     @media (max-width: 768px ) {
@@ -23,12 +22,15 @@ export const Container = styled.header`
   .btn{
     width: 100%;
   }
+
+  a{
+    cursor: pointer;
+  }
 `;
 
 export const MenuNavigate = styled.nav`
   display: flex;
   gap: 2.5625rem;
-
 
   a{
     color: ${({ theme }) => theme.colors.text.light};
@@ -40,7 +42,6 @@ export const MenuNavigate = styled.nav`
     &:hover{
       color: #FFF;
     }
-
   }
 
   @media (max-width: 773px) {
