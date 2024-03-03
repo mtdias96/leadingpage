@@ -23,6 +23,10 @@ export const Container = styled.header`
   .btn{
     width: 100%;
   }
+  
+  a{
+    cursor: pointer;
+  }
 `;
 
 export const MenuNavigate = styled.nav`
