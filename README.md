@@ -3,8 +3,6 @@
 Este projeto é uma landing page simples desenvolvida em React, utilizando React Router para navegação, styled-components para estilização, e outras bibliotecas para funcionalidades adicionais.
 
 ## Funcionalidades
-
-- **Navegação**: Utilização do React Router para navegação entre seções da página.
 - **Estilização**: Componentes estilizados com styled-components.
 - **Responsividade**: Layout responsivo com react-responsive.
 - **Animações de Scroll**: Implementação de animações de scroll com react-scroll.
