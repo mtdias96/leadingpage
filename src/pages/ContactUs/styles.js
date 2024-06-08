@@ -72,7 +72,7 @@ export const ContainerContact = styled.div`
     align-items: center;
   }
 `;
-export const Contact = styled.div`
+export const Contact = styled.form`
   display: flex;
   height: 669px ;
   padding: 22px 22px;
